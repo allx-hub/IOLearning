@@ -39,7 +39,7 @@ public class ClientDemo {
     public static void main(String[] args) throws IOException {
         System.out.println("客户端的启动");
 
-        //创建一个socket通信管道，请求与服务端端口连接
+        //创建一个socket通信管道，请求与服务端8888端口连接
         Socket socket = new Socket("127.0.0.1", 8888);
 
         //从socket通信管道中得到一个字节输出流

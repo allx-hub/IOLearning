@@ -18,7 +18,7 @@ public class ServerDemo {
 
     public static void main(String[] args) throws IOException {
         System.out.println("==服务器的启动==");
-        // （1）注册端口
+        // （1）注册端口，就是监听8888端口
         ServerSocket serverSocket = new ServerSocket(8888);
 
         //（2）开始在这里暂停等待接收客户端的连接,得到一个端到端的Socket管道
